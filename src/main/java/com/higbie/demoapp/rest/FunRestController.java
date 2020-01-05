@@ -29,6 +29,11 @@ public class FunRestController {
         return "Meow";
     }
 
+    @GetMapping("fortune")
+    public String youWin(){
+        return "Today is your lucky day!";
+    }
+
 
 }
 
